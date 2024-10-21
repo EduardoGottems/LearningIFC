@@ -12,4 +12,4 @@ driver.find_element(By.NAME, "user.login").send_keys("João")
 driver.find_element(By.NAME, "user.senha").send_keys("123456")
 
 #Envia o formulário
-driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click
+driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click()
