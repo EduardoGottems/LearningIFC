@@ -1,4 +1,4 @@
-from test.exemplo import TestConversao as Teste
+from teste.exemplo import TestConversao as Teste
 test = Teste()
 test.test_binarioToDecimal()
 test.test_decimalToBinario()
